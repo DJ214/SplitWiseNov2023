@@ -1,4 +1,3 @@
-abcd
 # Splitwise
 
 ## Architecture Overview
