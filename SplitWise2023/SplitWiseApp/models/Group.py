@@ -18,6 +18,7 @@ class Group(BaseModel):
     admins = models.ManyToManyField(User, related_name="group_admins")
     # 1 to M RELATIONSHIP WITH EXPENSES
     description = models.CharField(max_length=255, default=" ")
+    percentage_split = models.FloatField()
 
 
 
